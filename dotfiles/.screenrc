@@ -1,0 +1,4 @@
+shell -$SHELL
+defscrollback 10000
+startup_message off
+autodetach on

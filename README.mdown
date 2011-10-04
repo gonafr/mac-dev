@@ -1,0 +1,38 @@
+macdev
+==================
+
+Transform the Mac computers in a better environment for software developers.
+It's just a bundle of stuff i use when developing software on the MacBook.
+
+
+Main features
+-------------
+  * Developer stuff
+    * Qt Creator themes
+    * Textmate bundles
+    * Textmate plugins
+    * Textmate themes
+    * Xcode themes
+  * Dotfiles for home directory
+  * Finder applications to add to finder bar
+    * Open In TextMate
+    * Open Terminal Here
+    * SVN Update
+  * Icons to replace default application icons
+  * Terminal styles
+
+
+How to install
+-------------
+  * WARNING: You must change the [user] and [core] in dotfiles/.gitconfig to match your personal settings
+  * Copy dotfiles content to your home folder. Something like: cp -pr dotfiles/ ~/
+  * Move (with the mouse) the finder applications to the finder bar
+  * The other stuff i bet you know how to install them
+
+
+Special thanks to
+-------------
+  * ChrisKempson - Tomorrow-Theme. Link: <a href="https://github.com/ChrisKempson/Tomorrow-Theme">Tomorrow-Theme</a>
+  * mathiasbynens - dotfiles for the Mac OS X. Link: <a href="https://github.com/mathiasbynens/dotfiles">dotfiles</a>
+  * ciaran - Textmate Project Plus. Link: <a href="https://github.com/ciaran/projectplus">projectplus</a>
+  * Nate Beaty - Sublime Text 2 replacement icon. Link: <a href="http://www.sublimetext.com/forum/viewtopic.php?f=2&t=1558&start=110">New logo discussion?</a>
