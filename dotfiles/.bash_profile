@@ -43,3 +43,17 @@ alias gcl='git clone'
 
 #Utilities
 alias untar='tar xvf'
+
+#Virtual environment
+source virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+
+# Python helpers
+alias site-packages='cd /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/'
+alias pyclean='find . -name "*.pyc" -exec rm {} \;'
+
+# Django helpers
+alias runserver='python manage.py runserver'
+alias runserver0='python manage.py runserver 0.0.0.0:8888'
+alias djshell='python manage.py shell'

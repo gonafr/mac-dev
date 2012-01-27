@@ -1,8 +1,8 @@
 macdev
 ==================
 
-Transform the Mac computers in a better environment for software developers.
-It's just a bundle of stuff i use when developing software on the MacBook.
+Transform the Mac OS X computers in a better environment for software developers.
+It's just a bundle of stuff i use when developing software on my MacBook.
 
 
 Main features
@@ -15,9 +15,7 @@ Main features
     * Xcode themes
   * Dotfiles for home directory
   * Finder applications to add to finder bar
-    * Open In TextMate
-    * Open Terminal Here
-    * SVN Update
+  * Fonts for better programming
   * Icons to replace default application icons
   * Terminal styles
 
@@ -26,13 +24,16 @@ How to install
 -------------
   * WARNING: You must change the [user] and [core] in dotfiles/.gitconfig to match your personal settings
   * Copy dotfiles content to your home folder. Something like: cp -pr dotfiles/ ~/
-  * Move (with the mouse) the finder applications to the finder bar
-  * The other stuff i bet you know how to install them
+  * Move (with the mouse) the finder applications droplets to the finder bar
+  * The other stuff I bet you know how to install them
 
 
 Special thanks to
 -------------
-  * ChrisKempson - Tomorrow-Theme. Link: <a href="https://github.com/ChrisKempson/Tomorrow-Theme">Tomorrow-Theme</a>
-  * mathiasbynens - dotfiles for the Mac OS X. Link: <a href="https://github.com/mathiasbynens/dotfiles">dotfiles</a>
-  * ciaran - Textmate Project Plus. Link: <a href="https://github.com/ciaran/projectplus">projectplus</a>
-  * Nate Beaty - Sublime Text 2 replacement icon. Link: <a href="http://www.sublimetext.com/forum/viewtopic.php?f=2&t=1558&start=110">New logo discussion?</a>
+  * ChrisKempson - Tomorrow-Theme. <a href="https://github.com/ChrisKempson/Tomorrow-Theme">github Tomorrow-Theme</a>
+  * mathiasbynens - dotfiles for the Mac OS X. <a href="https://github.com/mathiasbynens/dotfiles">github dotfiles</a>
+  * ciaran - Textmate Project Plus. <a href="https://github.com/ciaran/projectplus">github projectplus</a>
+  * Nate Beaty - Sublime Text 2 replacement icon. <a href="http://www.sublimetext.com/forum/viewtopic.php?f=2&t=1558&start=110">New logo discussion?</a>
+  * Dan Perrera - A Sublime Text 2 Icon that is less horrible. <a href="http://dribbble.com/shots/311515-A-Sublime-Text-2-Icon-that-is-less-horrible">Dribble preview and download</a>
+  * Precapice - Unified_Finder_Toolbar_by_Precapice - PSD so we can create droplet icons that match Mac OS X Lion style. <a href="http://precapice.deviantart.com/art/Unified-Finder-Toolbar-136022634">deviantART download</a>. I used Helvetica Neue, medium, 12px on the letters of the icons.
+  * Shiny Frog - Shiny Droplets. <a href="http://blog.shinyfrog.net/2009/06/23/shiny-droplets-shot-espresso/">Shiny Droplets</a>.
